@@ -1,0 +1,18 @@
+[console_scripts]
+democli = democli.main:main
+
+[demo.cli]
+error = democli.simple:Error
+file = democli.show:File
+files = democli.list:Files
+found = democli.simple:Found
+hooked = democli.hook:Hooked
+list files = democli.list:Files
+show file = democli.show:File
+simple = democli.simple:Simple
+two_part = democli.simple:Simple
+unicode = democli.encoding:Encoding
+
+[demo.cli.hooked]
+sample-hook = democli.hook:Hook
+
